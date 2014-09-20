@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cr3ativ Carousel Plugin\n"
+"POT-Creation-Date: 2014-09-16 13:26-0500\n"
+"PO-Revision-Date: 2014-09-16 13:26-0500\n"
+"Last-Translator: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language-Team: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cr3ativ-carousel-widget.php:7
+msgid "Carousel Loop"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:27
+msgid "Title"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:31
+msgid "# of Columns"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:33 cr3ativ-carousel-widget.php:47
+msgid "Select One"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:34
+msgid "One Column"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:35
+msgid "Two Column"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:36
+msgid "Three Column"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:37
+msgid "Four Column"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:41
+msgid "Sort by ASC?"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:45
+msgid "Carousel category"
+msgstr ""
+
+#: cr3ativ-carousel-widget.php:122
+msgid "There are no posts to display. Try using the search."
+msgstr ""
+
+#: cr3ativ-carousel.php:53 cr3ativ-carousel.php:174
+msgid "Carousel Item"
+msgstr ""
+
+#: cr3ativ-carousel.php:54 cr3ativ-carousel.php:63
+msgid "Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:55 cr3ativ-carousel.php:56
+msgid "Add New Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:57
+msgid "Edit Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:58
+msgid "New Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:59
+msgid "View Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:60
+msgid "Search Carousel"
+msgstr ""
+
+#: cr3ativ-carousel.php:61
+msgid "Nothing found"
+msgstr ""
+
+#: cr3ativ-carousel.php:62
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: cr3ativ-carousel.php:95 cr3ativ-carousel.php:175
+msgid "Carousel Category"
+msgstr ""
+
+#: cr3ativ-carousel.php:172
+msgid "Date Created"
+msgstr ""
+
+#: cr3ativ-carousel.php:173
+msgid "Carousel Name"
+msgstr ""
