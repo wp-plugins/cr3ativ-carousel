@@ -3,9 +3,9 @@
  * Plugin Name: Cr3ativ Carousel Plugin
  * Plugin URI: https://cr3ativ.com/cr3ativportfolio/carousel
  * Description: Custom written plugin to add carousels by category to your WordPress site.
- * Author: Cr3ativ
+ * Author: Jonathan Atkinson
  * Author URI: http://cr3ativ.com/
- * Version: 1.0.3
+ * Version: 1.0.4
  */
 
 /* Place custom code below this line. */
@@ -39,9 +39,16 @@ add_action('admin_head', 'cr3ativcarousel_custom_css');
 function cr3ativcarousel_custom_css() {
   echo '<style>
     .carouselcontent img {
-    height: 100%;
+    height: auto;
     max-width: 50%;
 } 
+.carouselcontent.column-carouselcontent {
+    display: inline-block;
+    margin: 5px 0 25px;
+    height: 110px;
+    overflow: scroll;
+    width: 90%;
+}
   </style>';
 }
 
@@ -192,7 +199,7 @@ function my_manage_cr3ativcarousel_columns( $column, $post_id ) {
         
 		case 'carouselcontent' :
 
-			 the_content ();
+			 echo get_the_content();
 			break;
         
 		case 'carouselcategory' :
