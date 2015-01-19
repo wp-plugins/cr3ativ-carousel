@@ -83,6 +83,7 @@ class cr3ativ_carousel extends WP_Widget {
 		$carousel = array(
 		'post_type' => 'cr3ativcarousel',
 		'order' => $sortby,
+        'posts_per_page' => 999999,
         'tax_query' => array(
             array(
                 'taxonomy' => 'cr3ativcarousel_type',

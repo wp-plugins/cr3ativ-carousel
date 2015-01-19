@@ -5,7 +5,7 @@
  * Description: Custom written plugin to add carousels by category to your WordPress site.
  * Author: Jonathan Atkinson
  * Author URI: http://cr3ativ.com/
- * Version: 1.0.4
+ * Version: 1.0.5
  */
 
 /* Place custom code below this line. */
@@ -19,8 +19,6 @@ $ja_creativ_carousel_path = dirname(__FILE__);
 function creativ_carousel_add_scripts() {
 	global $ja_cr3ativ_carousel_directory, $ja_creativ_carousel_path;
 		wp_enqueue_style('creativ_carousel_styles', $ja_cr3ativ_carousel_directory.'css/owl.carousel.css');
-        wp_enqueue_style('creativ_carousel_transitions', $ja_cr3ativ_carousel_directory.'css/owl.transitions.css');
-        wp_enqueue_style('creativ_carousel_theme', $ja_cr3ativ_carousel_directory.'css/owl.theme.css');
 		wp_enqueue_script('jquery');
 		wp_register_script('creativ_carousel_js', $ja_cr3ativ_carousel_directory.'js/owl.carousel.js', 'jquery');
 		wp_register_script('creativ_carousel_script_js', $ja_cr3ativ_carousel_directory.'js/owl.script.js', 'jquery');
@@ -147,6 +145,7 @@ $output = '<div class="4-column">';
     global $post;
     $args = array(
         'post_type' => 'cr3ativcarousel',
+        'posts_per_page' => 999999,
         'tax_query' => array(
             array(
                 'taxonomy' => 'cr3ativcarousel_type',
