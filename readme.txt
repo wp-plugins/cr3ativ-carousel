@@ -3,7 +3,7 @@ Contributors: Cr3ativ
 Tags: carousel
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,14 +60,15 @@ OR You can just go to your WordPress admin area, click Plugins > Add New and in 
 Styling for these page templates are included in the includes directory under :
 
 /css/owl.carousel.css
-/css/owl.theme.css
-/css/owl.transitions.css
 
 
 
 == Changelog ==
 
-= 1.0.4 =
+= 1.0.6 =
+Updated version # and removed extra css files no longer needed for owl carousel.
+
+= 1.0.5 =
 Updated to add missing images from CSS files, combined all 3 CSS files into 1 css file and updated the loops to include all items instead of just displaying the # of items based on WordPress reading settings.
 
 = 1.0.4 =
