@@ -4,7 +4,7 @@ class cr3ativ_carousel extends WP_Widget {
 
 	// constructor
 	function cr3ativ_carousel() {
-        parent::WP_Widget(false, $name = __('Carousel Loop', 'cr3atcarousel') );
+        parent::__construct(false, $name = __('Carousel Loop', 'cr3atcarousel') );
     }
 
 	// widget form creation

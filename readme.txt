@@ -2,8 +2,8 @@
 Contributors: Cr3ativ
 Tags: carousel
 Requires at least: 3.0.1
-Tested up to: 4.2
-Stable tag: 1.0.6
+Tested up to: 4.3
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,9 @@ Styling for these page templates are included in the includes directory under :
 
 
 == Changelog ==
+
+= 1.1.0 =
+Updated widget section to support WP 4.3.
 
 = 1.0.6 =
 Updated version # and removed extra css files no longer needed for owl carousel.
